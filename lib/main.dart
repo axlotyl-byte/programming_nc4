@@ -7,18 +7,21 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Home-Screen',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+ @override
+Widget build(BuildContext context) {
+  return MaterialApp(
+    title: 'Home-Screen',
+    home: Scaffold(
+      body: Center(
+        child: Text(
+          'Hello World',
+          style: TextStyle(fontSize: 24),
+        ),
       ),
-      home: const HomeScreen(),
-    );
-  }
+    ),
+  );
 }
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

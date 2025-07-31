@@ -1,10 +1,12 @@
 # programming_nc4
 
-A new Flutter project.
+A basic Flutter app that displays "Hello World" centered on the screen.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
+## Setup Instruction
+1. Make sure Flutter is installed:
+2. Clone the repository:
+git clone https://github.com/axlotyl-byte/programming_nc4.git
+cd programming_nc4
 
 A few resources to get you started if this is your first Flutter project:
 
