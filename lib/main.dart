@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Text(
             'Hello World'
-            style: TextStyle(fontSize: 32),
+            style: TextStyle(fontSize: 24),
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
