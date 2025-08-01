@@ -1,12 +1,14 @@
 # programming_nc4
 
-A basic Flutter app that displays "Hello World" centered on the screen.
+Setup & Run (Web)
+1. flutter config --enable-web
+2. flutter run -d chrome
 
-## Setup Instruction
-1. Make sure Flutter is installed:
-2. Clone the repository:
-git clone https://github.com/axlotyl-byte/programming_nc4.git
-cd programming_nc4
+Branch & Commit
+- git checkout feature/home-screen
+- git add .
+- git commit -m "feat: add Hello World! home screen"
+- git push
 
 A few resources to get you started if this is your first Flutter project:
 
